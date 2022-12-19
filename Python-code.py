@@ -52,7 +52,7 @@ def get_filters():
     days = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
     print("monday - tuesday - wednesday - thursday - friday - saturday - sunday - all")
     while True:
-      day = input('In wich day?  ').lower()
+      day = input('In wich day do you want?  ').lower()
       if day in days:
         break
       else:
