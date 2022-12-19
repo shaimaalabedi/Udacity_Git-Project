@@ -42,7 +42,7 @@ def get_filters():
     months = ['all', 'january', 'february', 'march', 'april', 'may', 'june']
     print("january - february - march - april - may - june - all")
     while True:
-      month = input('In wich month?  ').lower()
+      month = input('In wich month do you want?  ').lower()
       if month in months:
         break
       else:
@@ -52,7 +52,7 @@ def get_filters():
     days = ['all', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
     print("monday - tuesday - wednesday - thursday - friday - saturday - sunday - all")
     while True:
-      day = input('In wich day?  ').lower()
+      day = input('In wich day do you want?  ').lower()
       if day in days:
         break
       else:
@@ -175,7 +175,7 @@ def user_stats(df):
 
 
 
-    """Displays statistics on bikeshare users."""
+    
 
     print('\nCalculating User Stats...\n')
     start_time = time.time()
